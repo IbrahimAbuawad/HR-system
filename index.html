@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <header>
+<h1>HR system</h1>
+    </header>
+    <div class="clear"></div>
+
+    <main>
+    <div id="formDiv">
+        <h1>Add Employee</h1>
+        <form id='form'>
+            <label for="Name">Name</label>
+            <br>
+            <br>
+            <input type="text" id='Name' name='Name'>
+            <br>
+            <br>
+            <label for="Email">Email</label>
+            <br>
+            <br>
+            <input type="email" id='Email' name='Email'>
+            <br>
+            <br>
+            <label for="Depart">Department</label>
+            <br>
+            <br>
+            <select name="depart" id="depart">
+                <option value="Call-Center">Call-Center</option>
+                <option value="Information-Technology">Information-Technology</option>
+                <option value="Human-Resources">Human-Resources</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Submit" id='submit1'>
+        </form>
+    </div>
+    <div id="tableDiv"></div>    
+    </main>
+    <div class="clear"></div>
+    <footer>
+
+        <p>&copy; ASAC 201d19 Team</p>
+    </footer>
+    <script src="./JavaScript/app.js"></script>
+</body>
+</html>
